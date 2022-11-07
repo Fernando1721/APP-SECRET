@@ -9,36 +9,54 @@ export const footer = StyleSheet.create({
     },
 
     imghome:{
-        height:35,
-        width:35,
+        height:30,
+        width:30,
         margin:10,
         top:6,
-        left:6
+        left:20
     },
     imgajuda:{
-        height:35,
-        width:35,
-        left: 310,
+        height:30,
+        width:30,
+        left: 295,
         top:14
         
     },
     imgtelefone:{
-        height:30,
-        width:30,
+        height:27,
+        width:27,
         left:160,
         top:20
         
     },
 
     imgmapa:{
-        height:35,
-        width:35,
+        height:30,
+        width:30,
         right:9,
-        top:19
+        top:19,
+        
     },
+
     txthome:{
         color:"white",
-        fontSize:20,
-    fontWeight:"bold"
+        left:25,
+        top:-3
+    
+    },
+    txtmapa:{
+        color:"white",
+        top:20,
+        right:10
+    },
+    txttelefone:{
+        color:"white",
+        left:150,
+        top: 25
+    },
+    txtajuda:{
+        color:"white",
+        left:295,
+        top:20
     }
 })
